@@ -29,7 +29,7 @@
     font-weight: 700;
     font-size: 20px;
     border: 0;
-    padding: 18px 35px;
+    padding: 18px 25px;
     border-radius: 5px;
     background: #FD6E0A;
 }
@@ -89,7 +89,7 @@ nav li {
     font-weight: 700;
     font-size: 20px;
     border: none;
-    padding: 19px 17px 18px 51px;
+    padding: 19px 17px 18px 17px;
     border-radius: 5px;
     background: #FD6E0A;
 }
@@ -220,4 +220,39 @@ nav li {
 .experience{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* contact style */
+
+.contact-title{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.contact-img{
+    margin-top: 30px;
+}
+.contact{
+    margin-top: 113px;
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 50px 100px
+    
+}
+
+.contact input[type="text"], input[type=email], textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    border: 0;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
 }
