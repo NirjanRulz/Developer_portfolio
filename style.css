@@ -175,6 +175,9 @@ nav li {
     margin-bottom: 20px;
 }
 /* resume style */
+/* .resume{
+    margin-left: 230px;
+} */
 
 .resume-title{
     margin-top: 130px;
@@ -182,4 +185,39 @@ nav li {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+}
+.resume-content{
+    display: flex;
+    gap: 71px;
+    justify-content: center;
+}
+.education-experience{
+    color: var(--dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.edu_exp-title{
+    color: var(--dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.edu_exp-place{
+    color: var(--dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.edu_exp-description{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+}
+.masters{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.experience{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
