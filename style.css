@@ -255,3 +255,69 @@ input{
 .contact a{
     text-decoration: none;
 }
+@media screen and (max-width: 576px) {
+
+    nav{
+        flex-direction: column;
+        padding: 50px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        padding: 0;
+    }
+    nav li{
+        margin: 0;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner img{
+        width: 300px;
+    }
+    .resume-content{
+        flex-direction: column;
+        padding: 10px 20px;
+
+    }
+    .skills-container, .banner{
+        flex-direction: column;
+    }
+    .section_description2{
+        display: none;
+    }
+    .about_info-container{
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+    .about{
+        padding: 25px;
+    }
+    .contact{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .contact input[type="text"], input[type=email], textarea{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .banner{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .resume-content{
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+}
